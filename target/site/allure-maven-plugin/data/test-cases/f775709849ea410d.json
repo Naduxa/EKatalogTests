@@ -1,0 +1,122 @@
+{
+  "uid" : "f775709849ea410d",
+  "name" : "loginTest",
+  "fullName" : "LoginTest.loginTest",
+  "historyId" : "b055d0d27d3e6a2731ff886b323f5d1d",
+  "time" : {
+    "start" : 1523389933876,
+    "stop" : 1523390011425,
+    "duration" : 77549
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1523389871454,
+      "stop" : 1523389932965,
+      "duration" : 61511
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Вход",
+      "time" : {
+        "start" : 1523389934085,
+        "stop" : 1523389937039,
+        "duration" : 2954
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Выход",
+      "time" : {
+        "start" : 1523389967295,
+        "stop" : 1523390011157,
+        "duration" : 43862
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ {
+      "uid" : "d5049b840647219f",
+      "name" : "Page screenshot",
+      "source" : "d5049b840647219f.png",
+      "type" : "image/png",
+      "size" : 67134
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1523390011455,
+      "stop" : 1523390012047,
+      "duration" : 592
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "E-katalogTeest"
+  }, {
+    "name" : "suite",
+    "value" : "LogInLogOutTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "localhost.localdomain"
+  }, {
+    "name" : "thread",
+    "value" : "8159@localhost.localdomain.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

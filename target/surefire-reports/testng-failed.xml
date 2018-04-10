@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [E-katalogTeest]">
+  <parameter name="maxPrice" value="10000"/>
+  <test name="FilterPriceTest(failed)">
+    <parameter name="maxPrice" value="10000"/>
+    <classes>
+      <class name="ActionCameraTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ActionCameraTest -->
+      <class name="FilterPriceTest">
+        <methods>
+          <include name="priceFilterTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FilterPriceTest -->
+      <class name="LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- LoginTest -->
+    </classes>
+  </test> <!-- FilterPriceTest(failed) -->
+</suite> <!-- Failed suite [E-katalogTeest] -->

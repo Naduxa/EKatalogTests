@@ -1,0 +1,94 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 3
+  },
+  "time" : {
+    "minDuration" : 35673,
+    "maxDuration" : 466908,
+    "sumDuration" : 580130,
+    "start" : 1523389933876,
+    "stop" : 1523390658529,
+    "duration" : 724653
+  },
+  "children" : [ {
+    "uid" : "93fc4675e79578cf",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 35673,
+      "maxDuration" : 466908,
+      "sumDuration" : 580130,
+      "start" : 1523389933876,
+      "stop" : 1523390658529,
+      "duration" : 724653
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "291a9922ddd49b1c",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 35673,
+        "maxDuration" : 466908,
+        "sumDuration" : 580130,
+        "start" : 1523389933876,
+        "stop" : 1523390658529,
+        "duration" : 724653
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f775709849ea410d",
+        "name" : "loginTest",
+        "time" : {
+          "start" : 1523389933876,
+          "stop" : 1523390011425,
+          "duration" : 77549
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8d1ecdd020078e99",
+        "name" : "actionCameraTest",
+        "time" : {
+          "start" : 1523390119851,
+          "stop" : 1523390586759,
+          "duration" : 466908
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c3aaa85cf6c7db6c",
+        "name" : "priceFilterTest",
+        "time" : {
+          "start" : 1523390622856,
+          "stop" : 1523390658529,
+          "duration" : 35673
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

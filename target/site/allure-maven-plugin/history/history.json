@@ -1,0 +1,60 @@
+{
+  "b055d0d27d3e6a2731ff886b323f5d1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f775709849ea410d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523389933876,
+        "stop" : 1523390011425,
+        "duration" : 77549
+      }
+    } ]
+  },
+  "36e845df2c7da94111c8157cd19a746a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3aaa85cf6c7db6c",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Linux 4.15.14-300.fc27.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '2.17.0', revision: '15546', time: '2012-01-16 17:11:34'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.14-300.fc27.x86_64', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1523390622856,
+        "stop" : 1523390658529,
+        "duration" : 35673
+      }
+    } ]
+  },
+  "15a0a29cb6b230f728b36af63b3f896d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d1ecdd020078e99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523390119851,
+        "stop" : 1523390586759,
+        "duration" : 466908
+      }
+    } ]
+  }
+}

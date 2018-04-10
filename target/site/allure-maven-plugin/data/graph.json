@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f775709849ea410d",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1523389933876,
+    "stop" : 1523390011425,
+    "duration" : 77549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d1ecdd020078e99",
+  "name" : "actionCameraTest",
+  "time" : {
+    "start" : 1523390119851,
+    "stop" : 1523390586759,
+    "duration" : 466908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3aaa85cf6c7db6c",
+  "name" : "priceFilterTest",
+  "time" : {
+    "start" : 1523390622856,
+    "stop" : 1523390658529,
+    "duration" : 35673
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

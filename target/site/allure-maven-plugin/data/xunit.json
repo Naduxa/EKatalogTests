@@ -1,0 +1,199 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 3
+  },
+  "time" : {
+    "minDuration" : 35673,
+    "maxDuration" : 466908,
+    "sumDuration" : 580130,
+    "start" : 1523389933876,
+    "stop" : 1523390658529,
+    "duration" : 724653
+  },
+  "children" : [ {
+    "uid" : "65f396ca8d5db1d1",
+    "name" : "E-katalogTeest",
+    "time" : {
+      "minDuration" : 35673,
+      "maxDuration" : 466908,
+      "sumDuration" : 580130,
+      "start" : 1523389933876,
+      "stop" : 1523390658529,
+      "duration" : 724653
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "74edc1ba8b7ea94f",
+      "name" : "LogInLogOutTest",
+      "time" : {
+        "minDuration" : 77549,
+        "maxDuration" : 77549,
+        "sumDuration" : 77549,
+        "start" : 1523389933876,
+        "stop" : 1523390011425,
+        "duration" : 77549
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "4e11a6283949d13b",
+        "name" : "LoginTest",
+        "time" : {
+          "minDuration" : 77549,
+          "maxDuration" : 77549,
+          "sumDuration" : 77549,
+          "start" : 1523389933876,
+          "stop" : 1523390011425,
+          "duration" : 77549
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 1,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "f775709849ea410d",
+          "name" : "loginTest",
+          "time" : {
+            "start" : 1523389933876,
+            "stop" : 1523390011425,
+            "duration" : 77549
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    }, {
+      "uid" : "f78b0a87666cdb0a",
+      "name" : "ActionCameraTest",
+      "time" : {
+        "minDuration" : 466908,
+        "maxDuration" : 466908,
+        "sumDuration" : 466908,
+        "start" : 1523390119851,
+        "stop" : 1523390586759,
+        "duration" : 466908
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "95fb0e3821bedd32",
+        "name" : "ActionCameraTest",
+        "time" : {
+          "minDuration" : 466908,
+          "maxDuration" : 466908,
+          "sumDuration" : 466908,
+          "start" : 1523390119851,
+          "stop" : 1523390586759,
+          "duration" : 466908
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 1,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "8d1ecdd020078e99",
+          "name" : "actionCameraTest",
+          "time" : {
+            "start" : 1523390119851,
+            "stop" : 1523390586759,
+            "duration" : 466908
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    }, {
+      "uid" : "96a24b121ca8fb28",
+      "name" : "FilterPriceTest",
+      "time" : {
+        "minDuration" : 35673,
+        "maxDuration" : 35673,
+        "sumDuration" : 35673,
+        "start" : 1523390622856,
+        "stop" : 1523390658529,
+        "duration" : 35673
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "4d97f7f7c5dd01e5",
+        "name" : "FilterPriceTest",
+        "time" : {
+          "minDuration" : 35673,
+          "maxDuration" : 35673,
+          "sumDuration" : 35673,
+          "start" : 1523390622856,
+          "stop" : 1523390658529,
+          "duration" : 35673
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 1,
+          "skipped" : 0,
+          "passed" : 0,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "c3aaa85cf6c7db6c",
+          "name" : "priceFilterTest",
+          "time" : {
+            "start" : 1523390622856,
+            "stop" : 1523390658529,
+            "duration" : 35673
+          },
+          "status" : "broken",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    } ]
+  } ]
+}

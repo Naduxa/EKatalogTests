@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E-katalogTeest" verbose="10">
+    <test name="LogInLogOutTest" >
+        <classes>
+            <class name="LoginTest" />
+        </classes>
+    </test>
+
+    <test name="ActionCameraTest">
+        <classes>
+            <class name="ActionCameraTest"/>
+        </classes>
+    </test>
+
+    <test name="FilterPriceTest">
+        <parameter name="maxPrice" value="10000"/>
+
+        <classes>
+            <class name="FilterPriceTest"/>
+        </classes>
+    </test>
+</suite>
